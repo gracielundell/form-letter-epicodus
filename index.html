@@ -5,11 +5,29 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Mad Libs!</title>
+    <title>Form Letter</title>
 </head>
 
 <body>
-  
+  <div class="container">
+    <h1>Form Letter</h1>
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Show me my letter!</button>
+      </form>
+    </div>
+
+
+    <div id="letter">
+      <h1>Your Letter</h1>
+      <p>Dear <span class="name"></span>,</p>
+      <p>Artisan mini-mart beerfest vegan mellow Gresham tall boys UGB put a bird on it 82nd Avenue of Roses pickled IPA punk rock DIY The Bins dog parks. patio veggie burger plaid fifth quadrant Hood to Coast Portlandia nanobrewery Voodoo Donuts Hawthorne Alberta Arts gluten free Grimm natural more rain IPA farm to table. joggers Hawthorne cashew cheese flannel small plates oh Portland direct trade clouds handcrafted scenester vintage wood-fired oven tall bikes hawthorne. evergreens NoPo white people Beaverton stumptown beard co-op breweries Doug Fir yupster pearl district it's raining again Tasty &and; Sons snowpacolypse muesli.</p>
+    </div>
+  </div>
 </body>
 
 </html>
