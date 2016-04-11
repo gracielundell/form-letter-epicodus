@@ -10,6 +10,7 @@ Clone this repository using your terminal into the location of your choice on yo
 ## Technologies
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 - jQuery
 
